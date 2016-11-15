@@ -1,6 +1,8 @@
 describe('Directive Test', function() {
+	// grab the page
 	browser.get('http://localhost:8080');
 
+	// grab counter directive and current count
 	var counter = element(by.css('.counter'));
 	var count = element(by.css('.counter__count'));
 
